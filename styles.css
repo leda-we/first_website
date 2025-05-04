@@ -1,0 +1,111 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #0B0C10;
+    margin: 0;
+}
+
+.container {
+    margin-left: 30%;
+    margin-right: 30%;
+    
+    align-items: center;
+    text-align: center;
+    background-color: #1F2833;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #66FCF1;
+}
+
+h2 {
+    color: #66FCF1;
+}
+
+.slot-machine {
+    margin-top: 20px;
+}
+
+.reels {
+    display: flex;
+    justify-content: center;
+}
+
+.reel {
+    font-size: 50px;
+    margin: 0 10px;
+    width: 60px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #45A29E;
+    border-radius: 10px;
+    background-color: #f8d7da;
+    transition: transform 0.5s ease-out; /* Плавный переход при вращении */
+    box-shadow: 0 0 10px #66FCF1;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #45A29E;
+    color: white;
+}
+
+button:hover {
+    background-color: #66FCF1;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #45A29E;
+}
+
+select {
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+.head_place {
+    background-color: #1F2833;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #66FCF1;
+}
+.sponsor {
+    font-size:x-small;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    background-color: #1F2833;
+    margin-top: 22.9%;
+}
+
+.login_password {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@keyframes reel {
+    0% {
+      /* В начале анимации барабан находится в исходном положении */
+      top: 0;
+    }
+    100% {
+      /* Барабан сдвигается вверх, создавая эффект прокрутки */
+      top: -1187%;
+    }
+   }
+
+   /* ===== Google Font Import - Poformsins ===== */
